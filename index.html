@@ -1,0 +1,78 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Neumont CSC 210 = INTRO TO WEB DEV AND PRESENTATION">
+    <meta name="keywords" content="HTML, example, page">
+    <meta name="author" content="Your Name">
+
+    <meta property="og:title" content="Neumont CSC 210 = INTRO TO WEB DEV AND PRESENTATION">
+    <meta property="og:description" content="Blah blah blah">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="c:\Users\jkwiatkowski\Pictures\Screenshots\Screenshot 2025-01-24 193250.png" type="image/png">
+
+    <link rel="stylesheet" href="css\main.css">
+    <title>Jason Kwiatkowski</title>
+    </head>
+    <body>
+        <header role="banner">
+            <button class="theme-toggle" id="theme-toggle">Dark Mode</button>
+            <div class ="container">
+                <h1>Jason Kwiatkowski</h1>
+                <p class="tagline">AI Engineer</p>
+            </div>
+        </header>
+
+        <nav role="navigation" aria-label="Main Navigation">
+            <div class="container"></div>
+            <ul>
+                <li><a href="index.html" aria-describedby="about-desc">Home page</a></li>
+                <li><a href="projects.html" aria-describedby="skills-desc">Projects</a></li>
+                <li><a href="skills.html" aria-describedby="projects-desc">Skills</a></li>
+                <li><a href="contact.html" aria-describedby="contact-desc">Contact Me</a></li>
+            </ul>
+        </div>
+        </nav>
+
+        <main id="main-content" role="main">
+            <div class="container">
+                <section id="about" aria-labelledby="about-heading">
+                    <h2 id="about-heading">Home page</h2>
+                    <div class="about-content">
+                        <div class="about-text">
+                             <img src="images\me.jpg" height="200" width="200" style="border: 1.4px solid #004a99; border-radius: 4px;"  alt="Photo of Me">
+                                    <p>Hello! My name is Jason Allan-Cole Kwiatkowski. I am currently studying <strong>Artificial Inteligence Engineering</strong> and I am originally from <strong>Michigan</strong>. I Love the gym, and I love music. Currently my favorite song is "just give me one more day" by Alej. I love poetry and I love seing the poetic side in everything.</p>
+
+                            <details>
+                                <p>I am 19 years old, my birthday is 12/30/2005</p>
+                                <p>I am from Michigan, I was born and raised all over michigan.</p>
+                                <p>I love tech and everything tech related.</p>
+                                <p>I am very short but its okay.</p>
+
+                            </details>
+                        </div>
+
+                        <aside class="interests" aria-labelledby="interests-heading">
+                            <h3 id="interests-heading">Skills</h3>
+                            <ul>
+                                <li><span role="img" aria-label="Problem solving">📝</span>I love problem solving</li>
+                                <li><span role="img" aria-label="Adaptablity">⚙️</span>Adaptablity</li>
+                                <li><span role="img" aria-label="Ambition">🏆</span>Ambitious</li>
+                                <li><span role="img" aria-label="Good work ethic">🧑🏼‍💼</span>Good work ethic</li>
+                            </ul>
+                            </aside>
+                    </div>
+                    
+                    
+                </section>
+            </div>
+        </main>
+        <script src="js\darkmode.js"></script>
+        <script src="js\quote.js"></script>
+    </body>
+    <footer class="footer" role="contentinfo">
+    <p>Copyright ©2025 by Jason Kwiatkowski</p>
+  </footer>
+</html>
